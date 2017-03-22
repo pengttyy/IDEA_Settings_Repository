@@ -4,6 +4,6 @@
     <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
-    <option name="LOOK_FOR_VAR_ASSIGNMENTS" value="true" />
+    <option name="RESOLVE_REFERENCES" value="true" />
   </component>
 </application>
