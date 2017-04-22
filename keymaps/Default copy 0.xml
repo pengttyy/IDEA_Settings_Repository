@@ -1,0 +1,8 @@
+<keymap version="1" name="Default copy 0" parent="$default">
+  <action id="Maven_spring-ioc4c1701f7spring-ioc888a5d9aclean">
+    <keyboard-shortcut first-keystroke="ctrl numpad4" />
+  </action>
+  <action id="Maven_spring-ioc4c1701f7spring-ioc888a5d9atest">
+    <keyboard-shortcut first-keystroke="ctrl numpad5" />
+  </action>
+</keymap>
