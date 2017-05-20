@@ -3,7 +3,10 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="F:/codeRepository/bitbucket/spring-ioc/src/test/java/com/pengttyy/base/SpringUnitTestBase.java" timestamp="1495210747074">
+      <file name="/Dummy.txt" timestamp="1495251808884">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="F:/codeRepository/bitbucket/spring-ioc/src/test/java/com/pengttyy/base/SpringUnitTestBase.java" timestamp="1495251799143">
         <mark key="'" line="51" column="0" />
         <mark key="[" line="17" column="4" />
         <mark key="]" line="15" column="0" />
@@ -21,7 +24,10 @@
       <show-last>false</show-last>
     </search>
     <history>
+      <history-search />
       <history-cmd />
+      <history-expr />
+      <history-input />
     </history>
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
