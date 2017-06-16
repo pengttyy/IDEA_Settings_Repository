@@ -9,6 +9,12 @@
           <password>dfcbdfcedfc7dfc3dfc4</password>
           <organizationKey>default-organization</organizationKey>
         </SonarQubeServer>
+        <SonarQubeServer>
+          <option name="hostUrl" value="https://sonarcloud.io" />
+          <token>df9edf9adfccdf99df98df98df9cdf9adf92df9edfc8df93df9adf92dfcedf9edf9fdf9edf93df9fdf9edf9adfc9df93df99dfccdfcedf9cdf93df9adf9cdf93df93dfccdfcfdf92dfcbdf9edf9edfc8</token>
+          <option name="name" value="sonarcloud.io" />
+          <organizationKey>pengttyy-github</organizationKey>
+        </SonarQubeServer>
       </list>
     </option>
   </component>
