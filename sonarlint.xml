@@ -11,7 +11,7 @@
         </SonarQubeServer>
         <SonarQubeServer>
           <option name="hostUrl" value="https://sonarcloud.io" />
-          <token>df9edf9adfccdf99df98df98df9cdf9adf92df9edfc8df93df9adf92dfcedf9edf9fdf9edf93df9fdf9edf9adfc9df93df99dfccdfcedf9cdf93df9adf9cdf93df93dfccdfcfdf92dfcbdf9edf9edfc8</token>
+          <token>df9fdf9bdf9fdf9ddf9adf9edfc8df9cdf98df9cdf9fdfcedfc9df9adf9edf93df9bdfcbdfc8df93df9fdfccdf9fdf92dfcfdfccdfcedfc8df9edf9fdf92dfc8dfcedf9ddfcbdf9adf93df9bdf9ddfcb</token>
           <option name="name" value="sonarcloud.io" />
           <organizationKey>pengttyy-github</organizationKey>
         </SonarQubeServer>
