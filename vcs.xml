@@ -18,6 +18,10 @@
           <option name="url" value="https://github.com/ant-design/ant-design.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:pengttyy/java-kata.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="F:\codeRepository\github" />
