@@ -1,0 +1,17 @@
+<templateSet group="custom">
+  <template name="bean" value="@Bean&#10;public $CLASS_TYPE$ $METHOD_NAME$() {&#10;    return new $OBJECT_NAME$();&#10;}" description="添加bean配置" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_TYPE" expression="" defaultValue="Object" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="camelCase(CLASS_TYPE)" defaultValue="methodName" alwaysStopAt="true" />
+    <variable name="OBJECT_NAME" expression="CLASS_TYPE" defaultValue="Object" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="autow" value="@Autowired&#10;private $CLASS_TYPE$ $FIELD_NAME$;" description="自动注入声明" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLASS_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="camelCase(CLASS_TYPE)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
