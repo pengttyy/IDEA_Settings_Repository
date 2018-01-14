@@ -19,4 +19,11 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="logi" value="logger.info(&quot;$MESSAGE$&quot;,$ARG$);" description="日志[info]输出" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
