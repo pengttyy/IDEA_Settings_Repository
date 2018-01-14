@@ -14,4 +14,9 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="log" value="private Logger logger = LoggerFactory.getLogger(this.getClass());" description="定义logger对象" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
