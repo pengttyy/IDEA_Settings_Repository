@@ -1,6 +1,6 @@
 <application>
   <component name="DockerSettings">
-    <option name="dockerMachinePath" value="C:\Users\pengt\bin\docker-machine.exe" />
+    <option name="dockerMachinePath" value="C:\Program Files\Docker\Docker\resources\bin\docker-machine.exe" />
   </component>
   <component name="DockerTreeFilter">
     <option name="myStoppedContainersHidden" value="true" />
