@@ -2,17 +2,7 @@
   <component name="RemoteServers">
     <remote-server name="Docker" type="docker">
       <configuration>
-        <option name="apiUrl" value="https://176.122.138.43:2376" />
-        <option name="certificatesPath" value="C:\Users\pengt\.docker\machine\machines\bandwagonhost" />
-        <option name="machine" value="bandwagonhost" />
-        <option name="pathMappings">
-          <list>
-            <DockerPathMappingImpl>
-              <option name="localPath" value="F:\temp\docker" />
-              <option name="virtualMachinePath" value="/c/Users" />
-            </DockerPathMappingImpl>
-          </list>
-        </option>
+        <option name="apiUrl" value="tcp://localhost:2375" />
       </configuration>
     </remote-server>
   </component>
