@@ -1,0 +1,9 @@
+<application>
+  <component name="DockerRegistry">
+    <DockerRegistry email="pengttyy@gmail.com">
+      <option name="address" value="pengttyy-docker-development.bintray.io" />
+      <option name="name" value="Docker Registry" />
+      <option name="username" value="pengttyy" />
+    </DockerRegistry>
+  </component>
+</application>

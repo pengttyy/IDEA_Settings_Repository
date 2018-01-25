@@ -4,6 +4,7 @@
     <option name="dockerMachinePath" value="C:\Program Files\Docker\Docker\resources\bin\docker-machine.exe" />
   </component>
   <component name="DockerTreeFilter">
+    <option name="myStoppedContainersHidden" value="true" />
     <option name="myUntaggedImagesHidden" value="true" />
   </component>
 </application>
