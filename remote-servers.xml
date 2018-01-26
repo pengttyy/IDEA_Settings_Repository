@@ -2,9 +2,9 @@
   <component name="RemoteServers">
     <remote-server name="Docker-bwg" type="docker">
       <configuration>
-        <option name="apiUrl" value="https://176.122.138.43:2376" />
-        <option name="certificatesPath" value="C:\Users\pengt\.docker\machine\machines\bwg" />
-        <option name="machine" value="bwg" />
+        <option name="apiUrl" value="https://176.122.138.160:2376" />
+        <option name="certificatesPath" value="C:\Users\pengt\.docker\machine\machines\mybwg" />
+        <option name="machine" value="mybwg" />
       </configuration>
     </remote-server>
     <remote-server name="Docker-local" type="docker">
