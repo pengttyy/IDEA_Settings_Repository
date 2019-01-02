@@ -50,8 +50,4 @@
     </option>
     <option name="cloneParentDir" value="F:\codeRepository\gitee" />
   </component>
-  <component name="VcsApplicationSettings">
-    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Desktop" />
-    <option name="SHOW_LST_WORD_DIFFERENCES" value="false" />
-  </component>
 </application>
