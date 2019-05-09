@@ -1,0 +1,22 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="autoTrigger" value="false" />
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="http://192.168.209.128:9000" />
+          <option name="name" value="dockerSonarlint" />
+          <option name="login" value="admin" />
+          <password>dfcbdfcedfc7dfc3dfc4</password>
+          <organizationKey>default-organization</organizationKey>
+        </SonarQubeServer>
+        <SonarQubeServer>
+          <option name="hostUrl" value="https://sonarcloud.io" />
+          <token>df9fdf9bdf9fdf9ddf9adf9edfc8df9cdf98df9cdf9fdfcedfc9df9adf9edf93df9bdfcbdfc8df93df9fdfccdf9fdf92dfcfdfccdfcedfc8df9edf9fdf92dfc8dfcedf9ddfcbdf9adf93df9bdf9ddfcb</token>
+          <option name="name" value="sonarcloud.io" />
+          <organizationKey>pengttyy-github</organizationKey>
+        </SonarQubeServer>
+      </list>
+    </option>
+  </component>
+</application>

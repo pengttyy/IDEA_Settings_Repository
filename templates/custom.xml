@@ -1,0 +1,29 @@
+<templateSet group="custom">
+  <template name="bean" value="@Bean&#10;public $CLASS_TYPE$ $METHOD_NAME$() {&#10;    return new $OBJECT_NAME$();&#10;}" description="添加bean配置" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_TYPE" expression="" defaultValue="Object" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="camelCase(CLASS_TYPE)" defaultValue="methodName" alwaysStopAt="true" />
+    <variable name="OBJECT_NAME" expression="CLASS_TYPE" defaultValue="Object" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="autow" value="@Autowired&#10;private $CLASS_TYPE$ $FIELD_NAME$;" description="自动注入声明" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLASS_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="camelCase(CLASS_TYPE)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="log" value="private Logger logger = LoggerFactory.getLogger(this.getClass());" description="定义logger对象" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="logi" value="logger.info(&quot;$MESSAGE$&quot;,$ARG$);" description="日志[info]输出" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
